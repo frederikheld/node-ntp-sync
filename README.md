@@ -1,6 +1,8 @@
 # ntp-time
 
-[![NPM](https://nodei.co/npm/ntp-time.png?compact=true)](https://nodei.co/npm/ntp-time/)
+This is a version of the [`ntp-time`](https://www.npmjs.com/package/ntp-time) package that can be used in the web browser. It uses _WebSockets_ instead of _UDP_ as communication protocol (because browsers don't speak _UDP_) and has some libraries replaced by browserified versions.
+
+**Note:** everything below this line is not updated yet and still describes the original package!
 
 ## Installation
 
